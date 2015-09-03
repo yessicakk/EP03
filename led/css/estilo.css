@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+
+	
+}
+
+header
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #FFF8DC; 2px;
+        	font-family:"Harrington";      
+
+}
+
+#leds
+{
+	
+	margin: 0 auto; 
+	width: 80%;
+	padding-top: 50px;
+	margin-top: 50px;
+	background-image: url(../imagenes/images.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 1px solid white;
+	border-radius: 20px;
+	box-shadow: inset 100 100 100px;
+	
+}
+
+
+#caja2
+{
+     position: relative;
+     width: 125px; 
+     height: 20px; 
+     margin-top: -20px;
+     margin-left: 473px;
+     border: 0px solid #111;
+     background: #660066;
+
+
+}
+
+#catodo
+{
+     
+    position: relative;
+     width: 4px; 
+     height: 240px; 
+     margin-top: 0px;
+     margin-left: 520px;
+     border: 1px solid #222;
+     background: #848484;
+   
+}
+
+
+#anodo
+{
+     position: relative;
+     width: 4px; 
+     height: 190px; 
+     margin-top: -242px;
+     margin-left: 565px;
+     border: 1px solid #222;
+     background: #848484;
+	
+}
+
+.led
+{
+
+
+        position: relative;
+        width: 100px; 
+        height: 150px; 
+        border: 0.5px solid #555; 
+        padding-top: 10px;
+        margin-top: 8px;
+        margin-left: 50px;
+        background: #660066;
+       -moz-border-radius: 100px 100px 0 0;
+       -webkit-border-radius: 100px 100px 0 0;
+        border-radius: 100px 100px 0 0;
+        cursor: puntero;
+        transition: background-color 2s ease-out;
+ 	
+
+
+
+}
+
+#azul
+{
+	transition: all 0.5s ease;
+	background-color: #660066;
+}
+
+
+
+#azul:hover
+{
+	background-color: #B989B9;
+}
+
